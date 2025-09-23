@@ -111,7 +111,7 @@ The Gross Profits of top performing and low performing states are significantly 
     - Price sensitve categories categories accross different countries
 
 
-    ![Regional price analysis](https://github.com/Sailikith-07/regional-pricing-impact-analysis-sql-python-excel/edit/main/images/dashboard)
+    ![Regional price analysis_dashboard](images/dashboard.png)
 
     ---
 
