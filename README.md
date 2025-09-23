@@ -111,7 +111,7 @@ The Gross Profits of top performing and low performing states are significantly 
     - Price sensitve categories categories accross different countries
 
 
-    ![Regional price analysis](  )
+    ![Regional price analysis](https://github.com/Sailikith-07/regional-pricing-impact-analysis-sql-python-excel/edit/main/images/dashboard)
 
     ---
 
@@ -119,7 +119,7 @@ The Gross Profits of top performing and low performing states are significantly 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/regional-pricing-impact-analysis.git
+git clone https://github.com/yourusername/regional-pricing-impact-analysis-sql-python-excel.git
 
 ```
 2. Load the CSVs and ingest into database:
@@ -137,13 +137,13 @@ python scripts/get_sales_summary.py
 
 ```bash
     -notebooks/exploratory_data_analysis.ipynb
-    -notebooks/regional_price_impact_analysis.ipynb
+    -notebooks/regional_pricing_analysis.ipynb
 ```
 
-5. Open Power BI Dashboard:
+5. Open Excel Dashboard:
 
 ```bash
-dashboard/regional_price_impact_dashboard.xlsx
+dashboard/regional_pricing_impact_dashboard.xlsx
 
 ```
 ---
