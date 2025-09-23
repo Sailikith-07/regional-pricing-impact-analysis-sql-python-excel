@@ -7,7 +7,7 @@ Analyzing regional pricing to support profit-driven adjustments across countries
 ---
 - <a href="#overview">Overview</a>
 - <a href="#business-problem">Business Problem</a>
-- <a href="#dataset">Dataset</a>
+- <a href="#data-source--credits">Data Source & Credits</a>
 - <a href="#tools--technologies">Tools & Technologies</a>
 - <a href="#project-structure">Project Structure</a>
 - <a href="#data-cleaning--preperation">Data Cleaning & Preperation</a>
@@ -32,9 +32,12 @@ Retail profit margins were uneven across different countries and store locations
 
 ---
 
-<h2><a class="anchor" id="dataset"></a>Dataset</h2>
+<h2><a class="anchor" id="data-source--credits"></a>Data Source & Credits</h2>
 
-- Multiple csv files located in '/data/' folder (sales,    customers, products)
+- This project is based on a dataset provided by [Maven Analytics]([https://www.mavenanalytics.io/](https://mavenanalytics.io/data-playground/global-electronics-retailer)).  
+    - All rights and original content belong to Maven Analytics.  
+    - Used here for educational and portfolio purposes.
+- Multiple csv files located in '/data/' folder (sales, customers, products)
 - Summary Table created from ingested data and used for analysis
 
 ---
@@ -57,7 +60,7 @@ regional-pricing-impact-analysis
 ├── .gitignore
 ├── regional_pricing_impact_report.pdf
 │
-├──images/
+├──images/                      # Images
     ├──dashboard.png
 ├── notebooks/                  # Jupyter notebooks
 │   ├── exploratory_data_analysis.ipynb
@@ -68,7 +71,7 @@ regional-pricing-impact-analysis
 │   └── get_sales_summary.py
 │
 ├── dashboard/                  # MS Excel dashboard file
-│   └── regional_pricing_dashboard.xlsx
+│   └── regional_pricing_impact_dashboard.xlsx
 ```
 ---
 
