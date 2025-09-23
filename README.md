@@ -34,7 +34,7 @@ Retail profit margins were uneven across different countries and store locations
 
 <h2><a class="anchor" id="data-source--credits"></a>Data Source & Credits</h2>
 
-- This project is based on a dataset provided by [Maven Analytics]([https://www.mavenanalytics.io/](https://mavenanalytics.io/data-playground/global-electronics-retailer)).  
+- This project is based on a dataset provided by [Maven Analytics](https://mavenanalytics.io/data-playground/global-electronics-retailer).  
     - All rights and original content belong to Maven Analytics.  
     - Used here for educational and portfolio purposes.
 - Multiple csv files located in '/data/' folder (sales, customers, products)
