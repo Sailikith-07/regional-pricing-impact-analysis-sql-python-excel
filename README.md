@@ -55,8 +55,10 @@ Retail profit margins were uneven across different countries and store locations
 regional-pricing-impact-analysis
 ├── README.md
 ├── .gitignore
-├── Regional Pricing Impact Report.pdf
+├── regional_pricing_impact_report.pdf
 │
+├──images/
+    ├──dashboard.png
 ├── notebooks/                  # Jupyter notebooks
 │   ├── exploratory_data_analysis.ipynb
 │   ├── regional_pricing_analysis.ipynb
