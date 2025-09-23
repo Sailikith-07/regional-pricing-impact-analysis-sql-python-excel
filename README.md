@@ -167,7 +167,7 @@ dashboard/regional_pricing_impact_dashboard.xlsx
 
 ---
 
-<h2><a class="anchor" id="author--contact"></a>Authr & Contact</h2>
+<h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>
 
 **Gundeti Sailikith**
 
