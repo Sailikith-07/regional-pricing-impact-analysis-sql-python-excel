@@ -155,15 +155,22 @@ dashboard/regional_pricing_impact_dashboard.xlsx
 
 <h2><a class="anchor" id="final-recommendations"></a>Final Recommendations</h2>
 
-- Increase prices in the US, UK, and Germany to boost margins without affecting sales.
-- Raise prices on high-selling, low-profit products in top-performing states of the US, UK, Germany, and Canada.
-- Lower prices on low-selling, high-profit products in underperforming regions like the Netherlands, Italy, France, and Australia.
+- Raise prices on high-selling and low-profit products in top-performing states of US, UK, Germany, and Canada to boost margins without affecting sales.
+
+- Lower prices on low-selling and high-profit products in underperforming countries like Netherlands, Italy, France, and Australia.
+
 - Increase prices for strong categories: computers, cell phones, music, movies, and audiobooks across all regions
-- Reduce prices in price-sensitive categories in low-performing countries; keep prices stable in top-performing ones like US,UK and Germany
-- Expand store presence in the Netherlands, Italy, France, and Australia.
-- Launch targeted marketing and discount campaigns in these regions to drive sales
+
+- Expand top performing categories with new products, particularly computers would generate good revenue.
+
+- Reduce prices in price-sensitive categories in low-performing countries; keep prices stable in top-performing countries like US,UK and Germany
+
+- Expand store presence in the Netherlands, Italy, France, and Australia.Launch targeted marketing and discount campaigns in these countries to drive more sales
+
 - Offer premium services and enhanced security to top-contributing customers.
+
 - Introduce seasonal offers to attract new customers and boost engagement.
+
 
 ---
 
