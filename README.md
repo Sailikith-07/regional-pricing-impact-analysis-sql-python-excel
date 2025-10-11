@@ -1,6 +1,6 @@
 # Regional Pricing Impact Analysis
 
-Analyzing regional pricing to support profit-driven adjustments across countries without compromising customer trust, using SQL, Python, and Excel.
+Analyzing regional pricing to support profit-driven adjustments across countries without compromising customer trust, using SQL, Python and Excel.
 
 
 ## Table of Contents
