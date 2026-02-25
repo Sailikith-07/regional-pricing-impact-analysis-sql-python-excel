@@ -65,6 +65,7 @@ regional-pricing-impact-analysis
 ├── notebooks/                  # Jupyter notebooks
 │   ├── exploratory_data_analysis.ipynb
 │   ├── regional_pricing_analysis.ipynb
+│   └── back_testing.ipynb
 │
 ├── scripts/                    # Python scripts for ingestion and processing
 │   ├── Ingestion_db.py
@@ -101,7 +102,7 @@ regional-pricing-impact-analysis
 2. **Top performing products in sales but low profits:**
  **39** unique products that perfrom good in US(59.77%), UK(11.77%) and Germany(8.29%) and bad in other countries
  3. **Top performing customers:** Top **10%** customers contributing **28.23%** of the total revenue
-4. **Products with low sales and high profits:** **28** unique products that performs low in Netherlands(1.48), Italy(2.97%), France(3%), Canada(5.94%) and Australia(5.97%)
+4. **Products with low sales and high profits:** **27** unique products that performed low in multiple countries
 5. **Hypothesis Testing:**
 The Gross Profits of top performing and low performing states are significantly different 
 
@@ -143,6 +144,7 @@ python scripts/get_sales_summary.py
 ```bash
     -notebooks/exploratory_data_analysis.ipynb
     -notebooks/regional_pricing_analysis.ipynb
+    -notebooks/back_testing.ipynb
 ```
 
 5. Open Excel Dashboard:
@@ -171,6 +173,19 @@ dashboard/regional_pricing_impact_dashboard.xlsx
 
 - Introduce seasonal offers to attract new customers and boost engagement.
 
+
+---
+<h2> Price Adjustment Strategy</h2>
+
+To validate my strategy, I conducted a Shadow Price Back-test on identified **66** products to ensure our price changes are safe and profitable. I simulated a 5% price adjustment and used Elasticity to predict how much the sales volume would naturally drop. I then checked if this new volume stayed within the Confidence Interval (2 Standard Deviations) of historical store performance. This confirms that our plan is realistic and won't cause an extreme sales crash.
+
+Through back-testing and elasticity modeling, this analysis identified a dual-path pricing strategy.
+
+Out of 39 products only 1 product is not between Confidence Interval(Outlier) and other 38 products are safe for price adjustments. For 38 high-volume products, a 5% price optimization was validated, and for 1 outlier product used old profit(Gross Profit), yielding a projected profit increase of $1365.
+
+For 27 high-margin products, back-testing across multiple price-drop scenarios (1%-5%) confirmed that these items are price-insensitive. Consequently, the recommendation is to hold current pricing to protect margins, as volume stimulation via price-cuts is not mathematically viable.
+
+Total Project Impact: **$1365** in immediate bottom-line growth and prevention of margin erosion on low sales high profit products.
 
 ---
 
