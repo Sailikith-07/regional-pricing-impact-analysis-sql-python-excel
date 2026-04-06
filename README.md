@@ -22,13 +22,13 @@ Analyzing regional pricing to support profit-driven adjustments across countries
 
 <h2><a class ="anchor" id="overview"></a>Overview</h2>
 
-This project analyzes retail pricing across different countries to find where prices are misaligned according to its demand. It uses SQL, Python, and Excel to clean data, test product performance, and visualize profit margins. The goal is to suggest pricing changes that improve profits without losing customer trust.
+This project analyzes a global electronics company’s performance to identify why strong **top-line revenue** is not translating into **bottom-line success**. Using **SQL, Python, and Excel** it investigates "profit leaks". The goal is to provide data-driven insights that shift the business from simple volume growth to a strategy of **profitable growth** and healthier gross margins.
 
 ---
 
 <h2><a class ="anchor" id="business-problem"></a>Business Problem</h2>
 
-Retail profit margins were uneven across different countries and store locations, making it hard to understand where pricing was working well and where it wasn’t. Some products were selling a lot but earning very little, while others had high prices but low sales. The business needed a clear way to spot these issues and adjust prices without upsetting loyal customers. This project helps identify those gaps using data.
+A Global Electronics company is successfully driving strong top-line revenue, yet this growth isn't translating into bottom-line success due to narrow gross margins and low net profits. To fix this, we must identify the specific "profit leaks" and pivot towards a strategy of profitable growth. 
 
 ---
 
@@ -98,12 +98,13 @@ regional-pricing-impact-analysis
 
 <h2><a class="anchor" id="research-questions--key-findings"></a>Research Questions & Key Findings</h2>
 
-1. **Product categories which show the highest price sensitivity across regions:** 3 categories 'TV and Video', 'cameras and camcoders','home appliances'across all countries
+1. **Product categories which has least purchase quantity across regions:** 3 categories 'TV and Video', 'cameras and camcoders','home appliances'across all countries
 2. **Top performing products in sales but low profits:**
- **39** unique products that perfrom good in US(59.77%), UK(11.77%) and Germany(8.29%) and bad in other countries
+ **56** unique products that perfrom good in US(59.77%), UK(11.77%) and Germany(8.29%) and bad in other countries
  3. **Top performing customers:** Top **10%** customers contributing **28.23%** of the total revenue
-4. **Products with low sales and high profits:** **27** unique products that performed low in multiple countries
-5. **Hypothesis Testing:**
+4. **Products with low sales and high profits:** **26** unique products that performed low in multiple countries
+5. **Market Efficiency vs. Physical Scale :** While the United States dominates both store presence and revenue, the **United Kingdom** stands out as a high-efficiency market, generating significantly higher total sales than **Germany or France** despite having a similar or smaller store count.
+6. **Hypothesis Testing:**
 The Gross Profits of top performing and low performing states are significantly different 
 
 ---
@@ -177,15 +178,15 @@ dashboard/regional_pricing_impact_dashboard.xlsx
 ---
 <h2> Price Adjustment Strategy</h2>
 
-To validate my strategy, I conducted a Shadow Price Back-test on identified **66** products to ensure our price changes are safe and profitable. I simulated a 5% price adjustment and used Elasticity to predict how much the sales volume would naturally drop. I then checked if this new volume stayed within the Confidence Interval (2 Standard Deviations) of historical store performance. This confirms that our plan is realistic and won't cause an extreme sales crash.
+To validate my strategy, I conducted a Shadow Price Back-test on identified **82** products to ensure our price changes are safe and profitable. I simulated a 5% price adjustment and used Elasticity to predict how much the sales volume would naturally drop. I then checked if this new volume stayed within the Confidence Interval (2 Standard Deviations) of historical store performance. This confirms that our plan is realistic and won't cause an extreme sales crash.
 
 Through back-testing and elasticity modeling, this analysis identified a dual-path pricing strategy.
 
-Out of 39 products only 1 product is not between Confidence Interval(Outlier) and other 38 products are safe for price adjustments. For 38 high-volume products, a 5% price optimization was validated, and for 1 outlier product used old profit(Gross Profit), yielding a projected profit increase of $1365.
+Out of 56 products only 4 products are not between Confidence Interval(Outlier) and other 52 products are safe for price adjustments. For 56 high-volume products, a 5% price optimization was validated, and for 4 outlier products used old profit(Gross Profit), yielding a projected profit increase of $1595.
 
-For 27 high-margin products, back-testing across multiple price-drop scenarios (1%-5%) confirmed that these items are price-insensitive. Consequently, the recommendation is to hold current pricing to protect margins, as volume stimulation via price-cuts is not mathematically viable.
+For 26 high-margin products, back-testing across multiple price-drop scenarios (1%-5%) confirmed that these items are price-insensitive. Consequently, the recommendation is to hold current pricing to protect margins, as volume stimulation via price-cuts is not mathematically viable.
 
-Total Project Impact: **$1365** in immediate bottom-line growth and prevention of margin erosion on low sales high profit products.
+Total Project Impact: **$1595** in immediate bottom-line growth and prevention of margin erosion on low sales high profit products.
 
 ---
 
