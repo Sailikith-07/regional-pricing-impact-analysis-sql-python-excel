@@ -1,6 +1,6 @@
 # Global Electronics Sales Analysis
 
-Analyzing regional pricing to support profit-driven adjustments across countries without compromising customer trust, using SQL, Python and Excel.
+Identifying "profit leaks" by analyzing uneven purchase costs and regional category performance to transition from volume growth to profitable scaling, using SQL, Python, and Excel.
 
 
 ## Table of Contents
